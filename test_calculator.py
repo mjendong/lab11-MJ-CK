@@ -1,3 +1,7 @@
+# https://github.com/mjendong/lab11-MJ-CK.git
+# Partner 1: Matthew Jendong
+# Partner 2: Charlie Kuang
+
 import unittest
 from calculator import *
 
