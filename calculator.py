@@ -1,23 +1,6 @@
-import math
-# First example
-def add(a, b): 
-    return a + b
-def sub(a, b):
-    return a - b
-def mul(a, b):
-    return a * b
-def div(a, b):
-    if a == 0:
-        return ZeroDivisionError
-    else:
-        return b / a
-def log(a, b):
-    try:
-        log(a, b)
-    except:
-        return ValueError
-def exp(a, b):
-    return a ** b
+# https://github.com/mjendong/lab11-MJ-CK.git
+# Partner 1: Matthew Jendong
+# Partner 2: Charlie Kuang
 
 import math
 
@@ -30,11 +13,25 @@ def subtract(a, b):
 def multiply(a, b):
    return a * b
 
-def logarithm(a, b):
-    return log(a,b)
+def divide(a, b):
+    if a == 0:
+        return ZeroDivisionError
+    return b / a
 
-    # use math library/raise ValueError
+def logarithm(a, b):
+    raise ValueError
 
 def exponent(a, b):
     return a**b
+
+def square_root(a):
+    if a < 0:
+
+        raise ValueError
+    return math.sqrt(a)
+
+def hypotenuse(a,b):
+    math.hypot(a, b)
+
+
 
