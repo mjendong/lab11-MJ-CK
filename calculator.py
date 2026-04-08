@@ -1,7 +1,3 @@
-
-<<<<<<< HEAD
-One function per operation, in order.
-"""
 import math
 # First example
 def add(a, b): 
@@ -22,7 +18,7 @@ def log(a, b):
         return ValueError
 def exp(a, b):
     return a ** b
-=======
+
 import math
 
 def add(a, b):
@@ -34,11 +30,6 @@ def subtract(a, b):
 def multiply(a, b):
    return a * b
 
-def divide(a, b):
-    if a == 0:
-        return ZeroDivisionError
-    return b / a
-
 def logarithm(a, b):
     return log(a,b)
 
@@ -46,7 +37,4 @@ def logarithm(a, b):
 
 def exponent(a, b):
     return a**b
-
-
->>>>>>> 6c4c9c6602dfb52c9c3252a8ecab0602f99e4f8a
 
