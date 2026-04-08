@@ -16,9 +16,7 @@ def divide(a, b):
     return b / a
 
 def logarithm(a, b):
-    return log(a,b)
-
-    # use math library/raise ValueError
+    raise ValueError
 
 def exponent(a, b):
     return a**b
